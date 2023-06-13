@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Alice Bighetti (吳恩達)
+title: Ruilin Wu
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 数据科学家
+role: 本科生在读
 
 # Status emoji
 status:
@@ -14,11 +14,11 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: 腾讯
+  - name: Tianjin University Of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include multi-kernel learning, graph neural networks, and geometric deep learning..
 
 #interests:
 #- Artificial Intelligence
