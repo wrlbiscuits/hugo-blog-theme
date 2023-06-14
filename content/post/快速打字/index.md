@@ -28,6 +28,8 @@ image:
 projects: []
 ---
 原题链接:[4382. 快速打字 - AcWing题库](https://www.acwing.com/problem/content/4385/)
+若字符串b能通过删减得到a,则a是b的子串
+双指针遍历,最后检查a是否被完全遍历即可
 ```c++
 #include <cstdio>
 #include <string>
