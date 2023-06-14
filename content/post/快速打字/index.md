@@ -5,7 +5,7 @@ title: "快速打字"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [算法题,双指针]
 categories: []
 date: 2023-06-14T15:48:49Z
 lastmod: 2023-06-14T15:48:49Z
@@ -27,6 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+原题链接:[4382. 快速打字 - AcWing题库](https://www.acwing.com/problem/content/4385/)
 ```c++
 #include <cstdio>
 #include <string>
