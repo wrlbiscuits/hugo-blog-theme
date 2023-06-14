@@ -27,3 +27,27 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+```c++
+#include <cstdio>
+#include <string>
+#include <iostream>
+using namespace std;
+int N;
+int main(){
+	scanf("%d",&N);
+	for(int k = 1;k <= N;k++){
+		string s1,s2;
+		cin >> s1 >> s2;
+		int pos = 0;
+		int x = s1.size();
+		int y = s2.size();
+		for(int i = 0;i < y;i++){
+			if(s2[i] == s1[pos]) pos++;
+			if(pos == x) break;
+		}
+		if(pos == x) printf("Case #%d: %d\n",k,y - x);
+		else printf("Case #%d: IMPOSSIBLE\n",k);
+	}
+	return 0;
+}
+```
